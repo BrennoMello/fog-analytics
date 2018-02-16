@@ -49,8 +49,14 @@
             <artifactId>edgent-providers-direct</artifactId>
             <version>${edgent.runtime.version}</version>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>org.apache.edgent</groupId>
+            <artifactId>edgent-connectors-mqtt</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+    </dependencies>
     <profiles>
         <profile>
             <!-- build app to run on Java7 platform -->
